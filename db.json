@@ -1,0 +1,9 @@
+{
+  "payments": {
+    "creditCardNumber": "1213",
+    "expirationDate": "2023-02-18",
+    "securityCode": "12",
+    "cardHolder": "ssdasd",
+    "amount": 12123
+  }
+}

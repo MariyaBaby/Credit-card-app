@@ -1,0 +1,52 @@
+::ng-deep .mat-snack-bar-container {
+    position: fixed;
+    top: 0;
+    left: 550px;
+    right: 0;
+    transform: translateY(-100%);
+    background-color: #af604c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    z-index: 1000;
+    height: 10px;
+  }
+  
+  ::ng-deep .mat-snack-bar-container.snackbar-top.open {
+    transform: translateY(0);
+  }
+
+  .error-snackbar {
+    background-color: #f44336 !important; /* red */
+    color: #fff;
+  }
+  
+  .success-snackbar {
+    background-color: #4caf50; /* green */
+    color: #fff;
+  }
+
+  ::ng-deep .mat-simple-snackbar-action {
+    color: #020a11;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 16px;
+  }
+
+//   .ng-invalid.ng-touched input {
+//   border-color: #dc3545;
+// }
+
+// .ng-invalid.ng-touched .error-message {
+//   color: #dc3545;
+// }
+.error{
+  color: #dc3545;
+}
+
+.invalid-error{
+  border-color: #dc3545;
+}
+

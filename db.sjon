@@ -1,0 +1,9 @@
+{
+  "payments": {
+    "amount" : 1123323
+    "cardHolder" : "mariya"
+    "creditCardNumber" : "123456543323"
+    "expirationDate" : "2023-02-14"
+    "securityCode" : "123" 
+  } 
+}
